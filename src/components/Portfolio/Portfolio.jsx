@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
+import olympiaGym from "../../img/olympiagym.png";
 import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import speech from "../../img/textToSpeech.jpeg";
+import LanguageTranslate from "../../img/languageTranslation.jpg";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,16 +24,20 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <a href="https://olympiafitclub.netlify.app/" target="_blank"><img src={olympiaGym} alt="" className="myImage" /></a>  
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+         <a href="https://github.com/MzubairSultan/Language-Translation" target="_blank">
+         <img src={LanguageTranslate} alt="" className="myImage" />
+          </a> 
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+        <a href="https://github.com/MzubairSultan/smart-speech-App" target="_blank" >
+        <img src={speech} alt=""  className="myImage"/>
+          </a>  
         </SwiperSlide>
       </Swiper>
     </div>

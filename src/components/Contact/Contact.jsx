@@ -10,15 +10,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+    emailjs.sendForm(
+        "service_mios8ls",
+        "template_ia3j628",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "3z_Wu3FofpDpgAQrt"
       )
-      .then(
-        (result) => {
+      .then( (result) => {
           console.log(result.text);
           setDone(true);
           form.reset();
@@ -46,10 +44,10 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
+          <input type="text" name="from_name" className="user"  placeholder="Name"/>
+          <input type="email" name="from_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
+          <input type="submit" value="Send" className="button" />
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"

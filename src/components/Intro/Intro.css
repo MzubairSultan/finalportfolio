@@ -92,6 +92,10 @@
   left: 56%;
   filter: blur(72px);
 }
+.boyImg{
+  width: 18rem;
+  height: 20rem;
+}
 
 @media screen and (max-width: 480px) {
   .Intro {

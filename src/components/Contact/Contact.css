@@ -36,6 +36,9 @@
 textarea{
     height: 4rem!important;
 }
+.mouse{
+    cursor: pointer;
+}
 
 .c-blur1{
     top: 1rem;

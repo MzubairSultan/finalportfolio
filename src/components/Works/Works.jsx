@@ -25,14 +25,13 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          Designed and implemented a user-friendly website with an optimized checkout <br />  page, resulting in a remarkable 25% surge in user clicks and a <br /> subsequent 33% increase in customer purchases.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            Established an interactive and dynamic website that guarantees high traffic, increased <br/> page views, and an unparalleled user experience <br/> contributing to a substantial 45% boost in the company's sales revenue.
             <br />
-            y dummy text of printingLorem
+            mplemented version control using Git, reducing code conflicts<br/> by an impressive 51% and ensuring a more streamlined and collaborative<br/> development process.
             <br />
-            ispum is simpley dummy text of printing
+            Developed user interfaces with modern JavaScript frameworks <br /> HTML5, and CSS3, which improved user satisfaction.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
