@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import olympiaGym from "../../img/olympiagym.png";
-import Ecommerce from "../../img/ecommerce.png";
+import Ecommerce from "../../img/ecom.png";
 import speech from "../../img/textToSpeech.jpeg";
 import LanguageTranslate from "../../img/languageTranslation.jpg";
 import { themeContext } from "../../Context";
